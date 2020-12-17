@@ -3,6 +3,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
+var engine,world;
 var dustbin1,dustbin2,dustbin3;
 var ground1,paper1;
 function preload()
